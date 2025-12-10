@@ -1,0 +1,6 @@
+# 项目排除路径
+/pid-lb-core/target/
+/pid-lb-demo/target/
+/pid-lb-gateway/target/
+/pid-lb-metrics/target/
+/pid-lb-spring/target/

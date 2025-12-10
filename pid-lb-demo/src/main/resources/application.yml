@@ -1,0 +1,19 @@
+pid:
+  lb:
+    service-id: demo-service
+    w-cpu: 0.34
+    w-mem: 0.33
+    w-rt: 0.33
+    load-setpoint: 0.7
+    rt-slo-ms: 200
+    sample-seconds: 0.5
+    w-min: 0.02
+    w-max: 0.8
+    update-ms: 500
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "health,info"
+
