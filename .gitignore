@@ -4,3 +4,6 @@
 /pid-lb-gateway/target/
 /pid-lb-metrics/target/
 /pid-lb-spring/target/
+
+/.trae/
+/.idea/
